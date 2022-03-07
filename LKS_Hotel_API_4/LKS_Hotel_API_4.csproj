@@ -141,13 +141,18 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\EmployeeController.cs" />
+    <Compile Include="Controllers\FDCheckOutController.cs" />
+    <Compile Include="Controllers\FDController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RoomController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\avail_view.cs">
       <DependentUpon>DataModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\CheckOutModel.cs" />
     <Compile Include="Models\customer.cs">
       <DependentUpon>DataModel.tt</DependentUpon>
     </Compile>
@@ -169,6 +174,7 @@
     <Compile Include="Models\employee.cs">
       <DependentUpon>DataModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\EmployeeModel.cs" />
     <Compile Include="Models\fdCheckout.cs">
       <DependentUpon>DataModel.tt</DependentUpon>
     </Compile>
@@ -214,6 +220,7 @@
     <Compile Include="Models\sysdiagram.cs">
       <DependentUpon>DataModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Utils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
