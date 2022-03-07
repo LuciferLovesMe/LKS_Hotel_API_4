@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="365a6a1657f44147b05f17bdfa628b7f" Name="Diagram1">
+        <EntityTypeShape EntityType="LKS_Hotel_4Model.customer" Width="1.5" PointX="6" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LKS_Hotel_4Model.employee" Width="1.5" PointX="3" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="LKS_Hotel_4Model.fdCheckout" Width="1.5" PointX="5.25" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LKS_Hotel_4Model.foodsAndDrink" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LKS_Hotel_4Model.item" Width="1.5" PointX="10.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="LKS_Hotel_4Model.itemStatu" Width="1.5" PointX="10.5" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LKS_Hotel_4Model.job" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LKS_Hotel_4Model.reservation" Width="1.5" PointX="8.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LKS_Hotel_4Model.reservationCheckOut" Width="1.5" PointX="12.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="LKS_Hotel_4Model.reservationRequestItem" Width="1.5" PointX="15.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LKS_Hotel_4Model.reservationRoom" Width="1.5" PointX="10.5" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LKS_Hotel_4Model.Room" Width="1.5" PointX="8.25" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LKS_Hotel_4Model.roomType" Width="1.5" PointX="6" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LKS_Hotel_4Model.sysdiagram" Width="1.5" PointX="0.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="LKS_Hotel_4Model.avail_view" Width="1.5" PointX="2.75" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="LKS_Hotel_4Model.room_view" Width="1.5" PointX="10.75" PointY="12" IsExpanded="true" />
+        <AssociationConnector Association="LKS_Hotel_4Model.FK__reservati__custo__36B12243" ManuallyRouted="false" />
+        <AssociationConnector Association="LKS_Hotel_4Model.FK__employee__jobId__286302EC" ManuallyRouted="false" />
+        <AssociationConnector Association="LKS_Hotel_4Model.FK__fdCheckou__emplo__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="LKS_Hotel_4Model.FK__reservati__emplo__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="LKS_Hotel_4Model.FK__fdCheckou__reser__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="LKS_Hotel_4Model.FK__fdCheckout__fdID__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="LKS_Hotel_4Model.FK__reservati__itemI__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="LKS_Hotel_4Model.FK__reservati__itemI__60A75C0F" ManuallyRouted="false" />
+        <AssociationConnector Association="LKS_Hotel_4Model.FK__reservati__itemS__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="LKS_Hotel_4Model.FK__reservati__reser__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="LKS_Hotel_4Model.FK__reservati__reser__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="LKS_Hotel_4Model.FK__reservati__reser__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="LKS_Hotel_4Model.FK__reservati__roomI__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="LKS_Hotel_4Model.FK__Room__roomTypeId__32E0915F" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
