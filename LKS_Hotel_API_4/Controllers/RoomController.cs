@@ -14,7 +14,7 @@ namespace LKS_Hotel_API_4.Controllers
         [HttpGet]
         public DataTable data()
         {
-            string com = "select room.RoomNumber, reservationRoom.id from reservationRoom join room on room.id = reservationRoom.id";
+            string com = "select room.RoomNumber, reservationRoom.id from reservationRoom join room on room.id = reservationRoom.id where room.status = 'unavail'";
             return Command.data(com);
         }
     }
